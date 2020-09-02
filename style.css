@@ -29,6 +29,7 @@ section .set {
   top: 0;
   left: 0;
   pointer-events: none;
+  transform-style: preserve-3d;
 }
 
 section .set div {
@@ -96,4 +97,13 @@ section .set div:nth-child(8) {
     top: 110%;
     transform: translateX(-20px) rotate(225deg);
   }
+}
+
+.set2 {
+  transform: scale(2) rotateY(180deg);
+  filter: blur(2px);
+}
+.set3 {
+  transform: scale(0.5) rotateX(180deg);
+  filter: blur(2px);
 }
